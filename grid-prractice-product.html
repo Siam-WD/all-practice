@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <style>
+        .title{
+            font-size: 30px;
+            text-align: center;
+            font-weight: 700;
+            margin: 50px;
+        }
+        .product-container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 0 auto;
+        }
+        .product{
+            padding: 20px;
+            background-color: rgb(241, 241, 241);
+            border: 2px solid orange;
+            border-radius: 7px;
+            
+        }
+        img{
+            width: auto;
+            height: auto;
+        }
+        @media screen and (max-width: 600px) {
+            .product-container{
+                grid-template-columns: repeat(1, 1fr);
+        
+            }
+        }
+        
+    </style>    
+</head>
+<body>
+    <h2 class="title">Online Shop</h2>
+    <div class="product-container">
+        <!--  div.product*9>img+h3+h4.price{$00}+p{lorem15}-->
+        
+        <div class="product">
+            <img src="images/keyboard.jpg" alt="">
+            <h3>Keyboard</h3>
+            <h4 class="price">400</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis accusantium, deleniti totam quas sit dicta?</p>
+        </div>
+        <div class="product">
+            <img src="images/laptop.jpg" alt="">
+            <h3>Laptop</h3>
+            <h4 class="price">500</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi corrupti quisquam dignissimos aliquid eveniet velit?</p>
+        </div>
+        <div class="product">
+            <img src="images/mouse.jpg" alt="">
+            <h3>Mouse</h3>
+            <h4 class="price">600</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere nulla tenetur voluptates, quidem earum recusandae?</p>
+        </div>
+        <div class="product">
+            <img src="images/tv.jpg" alt="">
+            <h3>TV</h3>
+            <h4 class="price">700</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A illo consectetur molestias sit harum fuga!</p>
+        </div>
+        <div class="product">
+            <img src="images/wallet.jpg" alt="">
+            <h3>Wallet</h3>
+            <h4 class="price">800</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aspernatur voluptatem, ut veniam hic iste.</p>
+        </div>
+        <div class="product">
+            <img src="images/watch.jpg" alt="">
+            <h3>Watch</h3>
+            <h4 class="price">900</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga amet quos et necessitatibus labore minima!</p>
+        </div>
+        
+        <div class="product">
+            <img src="images/drone.jpg" alt="">
+            <h3>Drone</h3>
+            <h4 class="price">100</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic maxime quam libero, quisquam repellat totam!</p>
+        </div>
+        <div class="product">
+            <img src="images/gimbl.jpg" alt="">
+            <h3>Gimbal</h3>
+            <h4 class="price">200</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam nisi architecto expedita, ut debitis.</p>
+        </div>
+        <div class="product">
+            <img src="images/iphone.jpg" alt="">
+            <h3>Iphon</h3>
+            <h4 class="price">300</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet quo eligendi exercitationem, quod libero!</p>
+        </div>
+    </div>
+
+</body>
+</html>
